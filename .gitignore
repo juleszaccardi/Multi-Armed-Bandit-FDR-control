@@ -1,1 +1,3 @@
 paper_codes/LUCB.py paper_codes/NIPS_Poster.pdf paper_codes/UniformSampling.py paper_codes/confidence_bounds.py paper_codes/csvs paper_codes/exp_new.py paper_codes/exp_new_punif.py paper_codes/generate_mu.py paper_codes/importme.py paper_codes/main_onlocal.py paper_codes/main_onlocal_pll.py paper_codes/main_prep.py paper_codes/main_real.py paper_codes/onlineFDR_proc paper_codes/parse_mu.py paper_codes/parse_new_yorker.py paper_codes/plot_main.py paper_codes/plot_results.py paper_codes/plot_results_punif.py paper_codes/plotting.py paper_codes/readme.txt paper_codes/rowexp_new.py
+significant.png
+mab.png
