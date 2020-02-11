@@ -10,7 +10,7 @@ from datetime import datetime
 import StringIO
 
 
-# import 
+# import
 import exp_new
 import exp_new_punif
 from importme import *
@@ -44,10 +44,10 @@ def main():
         mu_gap = 3
         mu_best = 8
         num_hyp = 500
-        # armrange = np.arange(10, 121, 10) 
+        # armrange = np.arange(10, 121, 10)
         # truncrange = np.arange(100, 801, 100)
-        armrange = np.arange(10, 41, 10) 
-        truncrange = np.arange(100, 301, 100)
+        armrange = np.arange(50, 51, 10)
+        truncrange = np.arange(100, 701, 100)
         if punif == 1:
             armrange = [30]
             algrange = [0]
@@ -55,12 +55,12 @@ def main():
             pi1range = np.arange(0.1,1,0.1)
             FDRrange = [0, 3, 5]
             num_hyp = 1000
-            
+
     elif (dist_style == 0):
         mu_gap = 0.3
         mu_best = 0.7
         num_hyp = 50
-        # armrange = np.arange(5, 36, 5) 
+        # armrange = np.arange(5, 36, 5)
         # truncrange = np.arange(5000, 25001, 1000)
         truncrange = np.arange(5000, 10001, 5000)
         armrange = np.arange(5, 11, 5)
@@ -79,7 +79,7 @@ def main():
         armrange = np.arange(10, 21, 10)
 
 
-        
+
     ##### Run for loop
     forrange = list(itertools.product(armrange, algrange, truncrange,numrunrange, pi1range, FDRrange))
 
